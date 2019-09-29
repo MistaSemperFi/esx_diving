@@ -1,5 +1,5 @@
 # esx_diving
-
+Full credits for original script go to: **tracid56** - https://github.com/tracid56/esx_diving
 Contributor: **@Nelyo#1462** and **@SUP2Ak#2222**
 
 # How to:
@@ -16,3 +16,5 @@ I will update the script later to change automatically clothe after finish divin
 Fill free to update the script but don't forget to share or update this repository also.
 
 Have Fun!
+
+# Converted to English, but remains untested at this stage. 
