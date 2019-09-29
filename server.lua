@@ -3,17 +3,17 @@ ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 -------------Light Diving suit
-ESX.RegisterUsableItem('plongee1', function(source)
+ESX.RegisterUsableItem('lightdivesuit', function(source)
     local _source = source
     local xPlayer = ESX.GetPlayerFromId(_source)
-    xPlayer.removeInventoryItem('plongee1', 1)
-        TriggerClientEvent('esx_tenues:settenueplongee', _source)
+    xPlayer.removeInventoryItem('lightdivesuit', 1)
+        TriggerClientEvent('esx_diving:setLightDiveSuit', _source)
 end)
 
 -------------diving suit
-ESX.RegisterUsableItem('plongee2', function(source)
+ESX.RegisterUsableItem('longdivesuit', function(source)
     local _source = source
     local xPlayer = ESX.GetPlayerFromId(_source)
-    xPlayer.removeInventoryItem('plongee2', 1)
-        TriggerClientEvent('esx_tenues:settenueplongee', _source)
+    xPlayer.removeInventoryItem('longdivesuit', 1)
+        TriggerClientEvent('esx_diving:setLongDiveSuit', _source)
 end)
