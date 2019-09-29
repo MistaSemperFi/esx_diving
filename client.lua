@@ -8,8 +8,8 @@ Citizen.CreateThread(function()
 end)
 
 ------------- Light Diving suit
-RegisterNetEvent('esx_tenues:settenueplongee')
-AddEventHandler('esx_tenues:settenueplongee', function()
+RegisterNetEvent('esx_diving:setLightDiveSuit')
+AddEventHandler('esx_diving:setLightDiveSuit', function()
 	if UseTenu then
 
 		TriggerEvent('skinchanger:getSkin', function(skin)
@@ -74,8 +74,8 @@ AddEventHandler('esx_tenues:settenueplongee', function()
 end)
 
 ------------- Best Diving suit
-RegisterNetEvent('esx_tenues:settenueplongee')
-AddEventHandler('esx_tenues:settenueplongee', function()
+RegisterNetEvent('esx_diving:setLongDiveSuit')
+AddEventHandler('esx_diving:setLongDiveSuit', function()
 	if UseTenu then
 
 		TriggerEvent('skinchanger:getSkin', function(skin)
